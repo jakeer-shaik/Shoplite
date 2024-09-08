@@ -16,7 +16,7 @@ const ProductCard = ({ product }) => {
       <Toaster />
       <div className="bg-white rounded overflow-hidden shadow-md cursor-pointer hover:scale-105 transition-transform duration-300">
         <div className="px-1">
-          <a href={`/product/${id}`}>
+          <div>
             <div className="">
               <img
                 src={image}
@@ -24,7 +24,7 @@ const ProductCard = ({ product }) => {
                 className="object-contain relative w-full h-64 lg:h-80"
               />
             </div>
-          </a>
+          </div>
         </div>
         <div className="p-4">
           <h3 className="text-md font-bold text-gray-800 mb-2 overflow-hidden text-ellipsis whitespace-nowrap">
